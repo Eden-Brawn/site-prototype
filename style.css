@@ -44,5 +44,7 @@ nav{
     grid-area: nav;
 }
 li{
+    display: inline;
     text-align: left;
+    margin-left: 3.5em;
 }
