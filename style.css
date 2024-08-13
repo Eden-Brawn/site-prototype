@@ -38,6 +38,11 @@ img{
 footer{
     background-color: #1DD05D;
     grid-area: footer;
+    
+}
+footer > p {
+    display: inline;
+    margin-left: 3.5em;
 }
 nav{
     width: 20em;
