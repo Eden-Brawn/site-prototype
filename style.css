@@ -45,18 +45,13 @@ div{
     background-color: #1DD05D;
     grid-area: footer;
 }
-footer > p {
-    display: inline;
-    margin-left: 3.5em;
-    color: white;
-}
 nav{
     width: 20em;
     grid-area: nav;
 }
 li{
-    display: inline;
-    text-align: left;
+    
+    text-align: right;
     margin-left: 3.5em;
     text-decoration: none;
 }
