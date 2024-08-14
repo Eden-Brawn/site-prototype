@@ -41,10 +41,17 @@ section{
 img{
     grid-area: image;
     align-content: center;
+    width: 24.48em;
+    height: 32.64em;
+    margin-left: 2em;
 }
 div{
     background-color: #1DD05D;
-    grid-area: footer;
+    z-index: 3;
+    position: -webkit-sticky;
+    position: sticky; top: -1em;
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
 }
 nav{
     width: 20em;
