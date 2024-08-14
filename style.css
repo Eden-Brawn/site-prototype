@@ -5,10 +5,10 @@ html, body{
 body{
     display: grid;
     grid-template-columns: auto;
-    grid-template-rows: auto 1fr auto;
+    grid-template-rows: auto;
     grid-template-areas: "header header"
-                            "section image"
-                            "footer footer";
+                            "image section"
+                            ". footer";
 }
 header{
     background-color: #1DD05D;
@@ -40,6 +40,7 @@ section{
 }
 img{
     grid-area: image;
+    align-content: center;
 }
 div{
     background-color: #1DD05D;
@@ -47,7 +48,6 @@ div{
 }
 nav{
     width: 20em;
-    grid-area: nav;
 }
 li{
     
