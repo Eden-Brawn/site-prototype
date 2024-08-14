@@ -45,7 +45,7 @@ img{
     height: 32.64em;
     margin-left: 2em;
 }
-div{
+.sidemenu{
     background-color: lightgray;
     color: aliceblue;
     z-index: 3;
