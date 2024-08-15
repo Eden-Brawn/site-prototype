@@ -9,10 +9,10 @@ body{
     grid-template-areas: "header header header header"
                             "footer footer footer footer"
                             ". image section section";
-                            background-color: white;
+                            background-color: #fbf7f8;
 }
 header{
-    background-color: white;
+    background-color: #fbf7f8;
     position: -webkit-sticky;
     position: sticky; top: 0;
     margin: 0;
@@ -34,7 +34,7 @@ h1{
     margin-left: 1em;
     width: 6em;
     grid-area: h1;
-    color: black;
+    color: #52292e;
     height: 3.5em;
     align-content: center;
     font-size: 26.46pt;
@@ -45,8 +45,8 @@ section{
     border-radius: 1em;
     box-shadow: 0.01em 0em 0.01em white;
     margin: 2em;
-    background-color: white;
-    color: black;
+    background-color: #fbf7f8;
+    color: #52292e;
 }
 img{
     grid-area: image;
@@ -83,6 +83,8 @@ li{
 a{
     text-decoration: none;
     color: black;
+    border-bottom: solid #fbf7f8;
+    transition: border-bottom 0.5s;
 }
 p{
     margin: 6em;
@@ -94,7 +96,7 @@ h2{
 }
 footer{
     grid-area: footer;
-    background-color: white;
+    background-color: #fbf7f8;
     margin-bottom: 1em;
     border-top: solid #52292e;
 }
@@ -104,4 +106,7 @@ footer{
   }
   @supports (font-variation-settings: normal) {
     :root { font-family: InterVariable, sans-serif; }
+  }
+  a:hover{
+    border-bottom: solid #52292e;
   }
