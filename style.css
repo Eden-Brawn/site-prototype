@@ -45,8 +45,8 @@ section{
     border-radius: 1em;
     box-shadow: 0.01em 0em 0.01em white;
     margin: 2em;
-    background-color: #2c0083;
-    color: white;
+    background-color: white;
+    color: black;
 }
 img{
     grid-area: image;
